@@ -27,7 +27,7 @@ Notes:
 import { RouterLink, useRoute } from 'vue-router'
 import AppContainer from '../ui/AppContainer.vue'
 import AppButton from '../ui/AppButton.vue'
-import { computed, onMounted, onBeforeUnmount, ref } from 'vue'
+import { onMounted, onBeforeUnmount, ref } from 'vue'
 import { ChevronDown, Menu, MoveRight, X } from 'lucide-vue-next'
 
 const route = useRoute()
