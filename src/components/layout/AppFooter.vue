@@ -41,10 +41,6 @@ const navigation = [
     to: '/pricing',
   },
   {
-    label: 'Resources',
-    to: '/resources',
-  },
-  {
     label: 'About',
     to: '/about',
   },
