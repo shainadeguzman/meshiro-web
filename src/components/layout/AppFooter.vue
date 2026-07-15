@@ -29,12 +29,12 @@ import AppContainer from '../ui/AppContainer.vue'
 
 const navigation = [
   {
-    label: 'Product',
-    to: '/product',
+    label: 'Platform',
+    to: '/platform',
   },
   {
-    label: 'Solutions',
-    to: '/solutions',
+    label: 'Support',
+    to: '/support',
   },
   {
     label: 'Pricing',
@@ -45,8 +45,8 @@ const navigation = [
     to: '/resources',
   },
   {
-    label: 'Company',
-    to: '/company',
+    label: 'About',
+    to: '/about',
   },
 ]
 
@@ -107,17 +107,17 @@ const year = new Date().getFullYear()
             class="flex flex-wrap justify-center gap-6 text-sm"
           >
             <RouterLink
-              to="/privacy"
+              to="/docs"
               class="text-gray-500 transition hover:text-white"
             >
-              Privacy
+              Documentation
             </RouterLink>
 
             <RouterLink
-              to="/terms"
+              to="/faq"
               class="text-gray-500 transition hover:text-white"
             >
-              Terms
+              FAQ
             </RouterLink>
 
             <RouterLink

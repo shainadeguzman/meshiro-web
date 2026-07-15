@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import AppHeader from '../components/layout/AppHeader.vue'
+import AppFooter from '../components/layout/AppFooter.vue'
 
 import HeroSection from '../components/home/HeroSection.vue'
 import TrustBar from '../components/home/TrustBar.vue'
@@ -22,7 +23,7 @@ import SecuritySection from '../components/home/SecuritySection.vue'
       <SecuritySection />
     </main>
 
-    <!-- <AppFooter /> -->
+    <AppFooter />
 
   </div>
 </template>
