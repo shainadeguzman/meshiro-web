@@ -20,7 +20,7 @@ Usage:
 
 Notes:
 - Highlights Meshiro's enterprise-grade security model.
-- Reuses the homepage SecuritySection component.
+- Reuses the marketing SecuritySection component.
 - Mobile responsive.
 ===============================================================================
 -->
@@ -33,7 +33,7 @@ import AppContainer from '@/components/ui/AppContainer.vue'
 import AppButton from '@/components/ui/AppButton.vue'
 import AppSectionHeading from '@/components/ui/AppSectionHeading.vue'
 
-import SecuritySection from '@/components/home/SecuritySection.vue'
+import SecuritySection from './components/SecuritySection.vue'
 
 import {
   ArrowRight,

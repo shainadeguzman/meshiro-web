@@ -32,7 +32,7 @@ import AppContainer from '@/components/ui/AppContainer.vue'
 import AppButton from '@/components/ui/AppButton.vue'
 import AppSectionHeading from '@/components/ui/AppSectionHeading.vue'
 
-import SecuritySection from '@/components/home/SecuritySection.vue'
+import SecuritySection from './components/SecuritySection.vue'
 
 import {
   ArrowDown,

@@ -24,7 +24,7 @@ Notes:
 -->
 
 <script setup lang="ts">
-import AppContainer from '../ui/AppContainer.vue'
+import AppContainer from '@/components/ui/AppContainer.vue'
 
 import acmeLogo from '@/assets/logos/acme.png'
 import nexoraLogo from '@/assets/logos/nexora.png'

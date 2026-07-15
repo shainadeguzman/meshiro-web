@@ -3,7 +3,7 @@
 Component: SecuritySection.vue
 
 Purpose:
-Displays the enterprise benefits bar below the feature section.
+Displays the enterprise benefits bar used across marketing pages.
 
 Props:
 None
@@ -16,7 +16,7 @@ Usage:
 <SecuritySection />
 
 Notes:
-- Matches the original Meshiro homepage.
+- Reusable across Meshiro marketing pages.
 - One continuous bordered container.
 - Items are separated only by vertical divider lines.
 - Mobile stacks into a single column.
@@ -32,8 +32,8 @@ import {
   Headset,
 } from 'lucide-vue-next'
 
-import AppContainer from '../ui/AppContainer.vue'
-import AppSection from '../ui/AppSection.vue'
+import AppContainer from '@/components/ui/AppContainer.vue'
+import AppSection from '@/components/ui/AppSection.vue'
 
 const benefits = [
   {
