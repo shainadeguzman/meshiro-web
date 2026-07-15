@@ -53,6 +53,7 @@ Notes:
 
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
+import { ArrowLeft } from 'lucide-vue-next'
 
 import AppContainer from '../ui/AppContainer.vue';
 </script>
@@ -84,6 +85,28 @@ import AppContainer from '../ui/AppContainer.vue';
           "
         >
           <!-- Logo -->
+          <RouterLink
+            to="/"
+            class="
+              mb-6
+              flex
+              items-center
+              justify-center
+              gap-2
+              text-sm
+              font-medium
+              text-zinc-400
+              transition
+              hover:text-white
+              focus:outline-none
+              focus-visible:text-white
+            "
+          >
+            <ArrowLeft class="h-4 w-4" />
+
+            Back to home
+          </RouterLink>
+
 
           <RouterLink
             to="/"
