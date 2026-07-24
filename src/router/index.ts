@@ -44,6 +44,10 @@ const router = createRouter({
       component: () => import('@/views/auth/RegisterView.vue'),
     },
     {
+      path: '/terms',
+      component: () => import('@/views/legal/TermsView.vue'),
+    },
+    {
       path: '/forgot-password',
       component: () => import('@/views/auth/ForgotPasswordView.vue'),
     },

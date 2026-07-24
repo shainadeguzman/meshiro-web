@@ -117,6 +117,13 @@ const year = new Date().getFullYear()
             </RouterLink>
 
             <RouterLink
+              to="/terms"
+              class="text-gray-500 transition hover:text-white"
+            >
+              Terms and Conditions
+            </RouterLink>
+
+            <RouterLink
               to="/contact"
               class="text-gray-500 transition hover:text-white"
             >
